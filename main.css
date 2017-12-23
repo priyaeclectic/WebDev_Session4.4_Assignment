@@ -1,0 +1,10 @@
+div {
+    position: relative;
+    animation: movebicycle 5s infinite;     /*image driven with 5 seconds duration with infinite property*/
+    animation-timing-function: linear;      /*image animated using animation-timing-function*/
+}
+
+@keyframes movebicycle {        /*image animated from left to right using specific distance*/
+    from {left: 0px;}
+    to {left: 500px;}
+}
